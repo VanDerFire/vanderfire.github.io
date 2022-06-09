@@ -3,10 +3,12 @@
 
 body {
 	margin: 0;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #Main-Header{
 	color: black;
+	background-color: white;
 	font-family: 'Montserrat', sans-serif;
 	padding-top: 0px auto;
 	padding-left: 0px;
@@ -14,6 +16,8 @@ body {
 	padding-bottom: 10px 10px;
 	margin: 0;
 	display: flex;
+	position: sticky;
+	top: 0;
 }
 
 #Header-Nav {
@@ -111,7 +115,7 @@ body {
 	font-family: "Montserrat", sans-serif;
 	color: white;
 	padding: 10px;
-	height: 76vh;
+	height: 80vh;
 }
 
 #Projects-Banner h1 {
@@ -198,4 +202,33 @@ footer {
 .separator {
 	margin: 10px 10px 10px 10px;
 	padding: 20px;
+}
+
+.article-icon {
+	margin-top: 20px;
+}
+
+#article-header {
+
+	text-align: center;
+	border-bottom: 1px solid black;
+
+}
+
+.article-title {
+	text-align: center;
+	font-size: 50px;
+}
+
+
+.article-subtitle {
+	font-size: 25px;
+}
+
+.article-date {
+	font-size: 12.5px;
+}
+
+.centered-product-info {
+	text-align: center;
 }
