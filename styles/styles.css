@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+	margin: 0;
+}
+
+#Main-Header{
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 0px auto;
+	padding-left: 0px;
+	border-bottom: 1px solid black;
+	padding-bottom: 10px 10px;
+	margin: 0;
+	display: flex;
+}
+
+#Header-Nav {
+	list-style: none;
+	align-content: center;
+}
+
+#Header-Nav li {
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+#Header-Nav li:hover {
+	color: black;
+	border: 1px solid black;
+	border-radius: 60px;
+}
+
+
+#Header-Title {
+	text-align: left;
+	align-content: left;
+	margin-left: 10px;
+}
+
+#Header-Title span {
+	background-color: black;
+	color: white;
+	padding: 1.5px;
+}
+
+#Header-Title img {
+	position: absolute;
+}
+
+#Header-Title p{
+}
+
+
+#Header-Icon{
+	float: left;
+}
+
+#Header-Nav ul li{
+	display: inline;
+	font-family: 'Montserrat', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+
+#Header-Nav a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+#headline-logo {
+	filter: invert();
+}
+
+#Banner-Info {
+	font-family: "Montserrat", sans-serif;
+	background-color: black;
+	padding: 1px;
+	color: white;
+	display: flex;
+}
+
+.info-icon {
+	filter: invert();
+	margin: 5px;
+}
+
+.info-text {
+	margin-left: 5px;
+}
+
+#projects {
+	padding-top: 20px;
+}
+
+#Projects-Banner {
+	text-align: center;
+	justify-content: center;
+	background: linear-gradient(#1F1F1F, #474747);
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	padding: 10px;
+	height: 76vh;
+}
+
+#Projects-Banner h1 {
+	font-family: 'Righteous', cursive;;
+	font-size: 65px;
+	padding-bottom: 10px;
+	margin-top: 60px;
+
+}
+
+#About-preview{
+	margin: 12px;
+}
+
+#main-project-learn-more {
+	margin-bottom: 10px;
+}
+
+#banner-buttons.section {
+	margin: 10px;
+}
+
+#banner-buttons-section a{
+	padding: 10px;
+	margin: 10px;
+	text-decoration: none;
+}
+
+#banner-buttons-section .learn-more {
+	background-color: none;
+	border: 1px white solid;
+	color: white;
+	border-radius: 60px;
+}
+
+#banner-buttons-section .learn-more:hover {
+	background-color: rgba(256, 256, 256, 0.5);
+}
+
+#banner-buttons-section .download-button {
+	background-color: white;
+	color: black;
+	border-radius: 60px;
+}
+
+#banner-buttons-section .download-button:hover {
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+}
+
+
+#mini-biography {
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px;
+	margin-top: 10px;
+	border-top: 1px solid #868686;
+}
+
+#mini-biography h3 {
+	font-size: 30px;
+}
+
+.section-info {
+	font-family:  'Montserrat', sans-serif;
+	color: #868686;
+}
+
+#projects {
+	font-family:'Montserrat', sans-serif;
+	padding-left: 10px;
+}
+
+
+footer {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	padding-top: 15px;
+	text-align: center;
+	padding: 5px;
+	background-color: black;
+}
+
+.separator {
+	margin: 10px 10px 10px 10px;
+	padding: 20px;
+}
