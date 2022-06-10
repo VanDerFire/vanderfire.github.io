@@ -4,6 +4,7 @@
 body {
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
+	background-color: #f5f5f7
 }
 
 #Main-Header{
@@ -18,6 +19,7 @@ body {
 	display: flex;
 	position: sticky;
 	top: 0;
+	box-shadow: 0px 27px 23px -1px rgba(0,0,0,0.10)
 }
 
 #Header-Nav {
@@ -130,11 +132,32 @@ body {
 	margin: 12px;
 }
 
-#main-project-learn-more {
+#main-learn-more {
 	margin-bottom: 10px;
+	background-color: none;
+	border: 1px white solid;
+	color: white;
+	border-radius: 60px;
+
 }
 
-#banner-buttons.section {
+#main-learn-more:hover {
+	background-color: rgba(256, 256, 256, 0.5);
+}
+
+#main-download-button {
+	background-color: white;
+	color: black;
+	border-radius: 60px;
+}
+
+#main-download-button:hover {
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+}
+
+#banner-buttons-section {
 	margin: 10px;
 }
 
@@ -144,34 +167,12 @@ body {
 	text-decoration: none;
 }
 
-#banner-buttons-section .learn-more {
-	background-color: none;
-	border: 1px white solid;
-	color: white;
-	border-radius: 60px;
-}
-
-#banner-buttons-section .learn-more:hover {
-	background-color: rgba(256, 256, 256, 0.5);
-}
-
-#banner-buttons-section .download-button {
-	background-color: white;
-	color: black;
-	border-radius: 60px;
-}
-
-#banner-buttons-section .download-button:hover {
-	background-color: black;
-	color: white;
-	border: 1px solid white;
-}
 
 
 #mini-biography {
 	font-family: 'Montserrat', sans-serif;
 	padding: 10px;
-	margin-top: 10px;
+	margin: 20px;
 	border-top: 1px solid #868686;
 }
 
@@ -192,11 +193,13 @@ body {
 
 footer {
 	font-family: 'Montserrat', sans-serif;
-	color: white;
-	padding-top: 15px;
+	color: #B4B4B4;
+	padding-top: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
 	text-align: center;
 	padding: 5px;
-	background-color: black;
+	border-top: 1px solid #B4B4B4;
 }
 
 .separator {
@@ -231,4 +234,108 @@ footer {
 
 .centered-product-info {
 	text-align: center;
+}
+
+#projects {
+	margin: 20px;
+}
+
+.projects-cards {
+	display: flex;
+}
+
+.project-card {
+	margin: 20px;
+	padding: 20px;
+	width: 40%;
+	background-color: white;
+	box-shadow: 41px 37px 23px -24px rgba(0,0,0,0.2);
+	border-color: black;
+	border: 1px solid none;
+	border-radius: 20px;
+
+}
+
+.learn-more {
+	font-size: 12px;
+	background-color: black;
+	border: 0.5px solid black;
+	border-radius: 60px;
+	text-decoration: none;
+	padding: 5px;
+	color: white;
+}
+
+.github-link {
+	font-size: 12px;
+	background-color: black;
+	border: 0.5px solid black;
+	border-radius: 60px;
+	text-decoration: none;
+	padding: 5px;
+	color: white;
+}
+
+.github-link:hover {
+	background-color: white;
+	border: 0.5px solid black;
+	border-radius: 60px;
+	color: black;
+}
+
+.project-card-icon {
+	width: 48px;
+	height: 48px;
+}
+
+.blog-article-icon {
+	width: 48px;
+	height: 48px;
+}
+
+#blog-introduction {
+	margin: 20px;
+}
+
+#blog-introduction h1 {
+	font-size: 36px;
+}
+
+#blog-articles-list {
+	margin: 20px;
+}
+
+.blog-article {
+	margin-top: 10px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 41px 37px 23px -24px rgba(0,0,0,0.2);
+}
+
+.blog-article:hover {
+	border: 1px solid #0C0C0C
+}
+
+.article-type {
+	color: #BCBCBC;
+}
+
+.article-headline-preview {
+	display: flex;
+	padding: 5px;
+}
+
+.Under-Construction {
+	margin: 40px;
+	text-align: center;
+}
+
+.Under-Construction h1{
+	font-size: 40px;
+}
+
+.Under-Construction h1 span{
+	background-color: black;
+	color: white;
 }
