@@ -56,10 +56,6 @@ body {
 	position: absolute;
 }
 
-#Header-Title p{
-}
-
-
 #Header-Icon{
 	float: left;
 }
@@ -77,7 +73,26 @@ body {
 	color: black;
 }
 
+.aboutme {
+	background-image: url('../media/img/coldM.jpg');
+	background-size: cover;
+	text-align: left;
+	padding-top: 80px;
+	padding-left: 30px;
+	height: 80vh;
+	color: white;
+}
 
+.aboutme h1 {
+	font-size: 70px;
+	padding-top: 50px;
+}
+
+.aboutme p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	padding-top: 5px;
+}
 
 #headline-logo {
 	filter: invert();
@@ -285,7 +300,7 @@ footer {
 
 .project-card-icon {
 	width: 48px;
-	height: 48px;
+	height: 48px; 
 }
 
 .blog-article-icon {
